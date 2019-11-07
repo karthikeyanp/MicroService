@@ -1,0 +1,10 @@
+spring:
+   application:
+     name : student-service
+     
+eureka:
+   client:
+     servicUrl:http://localhost:8761/eureka/
+  
+server:
+   port : 2222
